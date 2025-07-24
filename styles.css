@@ -1,0 +1,45 @@
+    body {
+      background: linear-gradient(135deg, #1de9b6, #1dc4e9);
+      min-height: 100vh;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #fff;
+      padding: 2rem 0;
+    }
+
+    .markdown-container {
+      background: rgba(255, 255, 255, 0.07);
+      backdrop-filter: blur(12px);
+      border-radius: 20px;
+      padding: 2rem;
+      box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
+    }
+
+    textarea, #preview {
+      background-color: rgba(255, 255, 255, 0.1);
+      color: #fff;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      border-radius: 10px;
+    }
+
+    textarea:focus, #preview:focus {
+      outline: none;
+      border-color: #fff;
+      box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+    }
+
+    label {
+      color: #ffffffcc;
+    }
+
+    h1 {
+      font-weight: 700;
+      color: #fff;
+    }
+    #preview img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
